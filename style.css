@@ -54,24 +54,17 @@ text-decoration: none;
     border-bottom-left-radius: 30px;
     margin-left: 60px;
     margin-bottom: 40px;
-
 }
 .add-new-button:hover {
     color: #8A8394;
     background-color: #22182d ;
-   
-}
-.button-text {
- 
 }
 .city-name {
     position: absolute;
     top: 315px;
     left: 400px;
-
 }
 .city-name-text {
-    
     font-size: 70px;
     color: white;
 }
