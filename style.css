@@ -4,5 +4,68 @@ background: linear-gradient(90deg, rgba(35,15,66,1) 0%, rgba(60,37,91,1) 50%, rg
 font-family: 'Montserrat', sans-serif;
 }
 .container {
+   margin-top: 400px;
+}
+.city-input {
+    padding: 15px;
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.5;
+    outline: none;
+    border: none;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 750px;
+}
+.AddCityButton {
+    padding: 15px;
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.5;
+    outline: none;
+    border: none;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.AddCityButton:hover {
+    background-color: black;
+    opacity: 0.4;
+}
+.city-name-text {
+    margin-top: 25px;
+    font-size: 45px;
+    color: white;
+}
+.price {
     display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 45px;
+    color: white;
+   
+}
+.input-button-container {
+    display: flex;
+    justify-content: center;
+}
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+.info-container-items {
+   
+}
+
+.features {
+    margin-top: -10px;
+    display: flex;
+
+  
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    
 }

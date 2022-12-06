@@ -13,34 +13,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="timer">
-            
-        </div>
-        <div id="cityBox" class="cities-box">
-            
-        <input id="cityFindInput" type="text">
-            <button id="addCityButton" class="AddCityButton">Find</button>
-        </div>
-    
-    </div>
-    <div class="city-name">
+     <div class="input-button-container">
+        <input placeholder="Enter city name" id="cityFindInput" class="city-input" type="text">
+        <button id="addCityButton" class="AddCityButton">Find</button>
+     </div>
+     <div class="info-container">
+        <div class="info-container-items">
         <p id="cityText" class="city-name-text"></p>
-        <p class="city-name-subtext"></p>
-    </div>
-    <div class="footer-container">
-    <div class="weather-field">
-    
-    <div class="weather-price">
         <p id="cityWeatherInfo" class="price"></p>
-        <p class="disclamer"></p>
-    </div>
-    <div class="features-container">
+        <div class="image-container">
         <img id="weatherIcon" class="features">
+        </div>
     </div>
+     </div>
     </div>
-   
-    </div>
-</div>
     <script src="./script.js"></script>
 </body>
 </html>

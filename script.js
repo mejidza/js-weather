@@ -13,13 +13,13 @@
       .then (data => {
          console.log(data)
          cityWeatherInfo.innerText = data.name
-         cityWeatherPrice.innerText = farinToCelsies(data.main.temp)
+         cityWeatherPrice.innerText = kelvinToCelsies(data.main.temp)
          cityWeatherIcon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
       })
 
    })
-   function farinToCelsies(temp) {
-      return (temp - 273.15).toFixed(1)
+   function kelvinToCelsies(temp) {
+      return (temp - 273.15).toFixed(0)
    }
 
 
